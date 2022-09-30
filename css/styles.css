@@ -1,0 +1,43 @@
+.container{
+    border: 1pxsolid black;
+    background-color: grey;
+    width: 100%;
+    margin: auto;
+    height: 500px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.box{
+    padding: 10px;
+    border: 1px dashed black;
+    /* width: 20%; */
+    flex-basis: 40%;
+}
+.box1{
+    text-align: center;
+    /* just a note 
+        width = flex-basis  in case u give the parent flex  
+    */
+    /* flex-basis: 20%; */
+    /* flex: 1; this means to give ratio to all boxes from the original width of the main container */
+    /* flex-basis: 80%; */
+    /* height: 400px; */
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    
+}
+.box2{
+    /* flex-basis: 20%; */
+    /* flex: 2; */
+}
+.box3{
+    /* flex-basis: 20%; */
+    /* flex: 1; */
+}
+.container .box1 button{
+    border: 1px solid black;
+    padding: 10px;
+}
